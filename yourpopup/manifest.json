@@ -1,0 +1,17 @@
+{
+  "name": "name of app",
+  "description": "rubin is cool",
+  "version": "0.1",
+
+  "manifest_version": 2,
+
+  "browser_action": {
+    "default_icon": "icon.PNG",
+    "default_popup": "window.html"
+  },
+
+  "permissions": [
+    "tabs",
+    "storage"
+  ]
+}
